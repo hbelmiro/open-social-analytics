@@ -11,6 +11,8 @@ datasets:
     columns:
       - id: Metric
         type: LABEL
+      - id: Column2
+        type: LABEL
 pages:
   - components:
       - settings:
