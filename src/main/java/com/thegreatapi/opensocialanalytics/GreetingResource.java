@@ -12,10 +12,11 @@ public class GreetingResource {
     @Produces(MediaType.APPLICATION_JSON)
     public String hello() {
         return """
-                {
-                    "metric": "my_metric",
-                    "label": "My awesome metric",
-                    "value": 42
+                    [
+                                 ["John"],
+                                 ["Jane"],
+                                 ["Bob"]
+                               ]
                 }
                 """;
     }
